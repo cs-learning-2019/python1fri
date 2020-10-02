@@ -41,3 +41,48 @@ print("\t"*2 + "-.-.- " * 5 + "}} }")
 # Practice Question
 # 3/4
 print("You're amazing!" + " And the best!" + " And better than all the rest!")
+
+
+
+### Skill 3 ###
+print("-----------------------------------------")
+# A variable is a helping hand that is able to hold on to some piece of data
+# In python we have lot of different types of data
+# 1) Strings   eg/ "Hello"
+# 2) int       eg/ 10, 20, -10, 0
+# 3) boolean   eg/ True, False
+# 4) float     eg/ 54.6, 10.0, 1.1, -100.678
+bugs = 10
+colour = "Red"
+like_cheese = False
+fav_num = 54.3
+dogs = "I like dogs"
+
+# Rules for naming variables
+# 1) Does not start with a number. You need to start it with a letter.
+# 2) No spaces. Instead use underscores.
+# 3) Only letters, numbers and _
+
+print(bugs)
+print("My favourite colour is " + colour)
+print(like_cheese)
+print(fav_num*10)
+print(dogs)
+
+# Challenges
+# B
+shoe_sz = 8
+#print("My shoe size is " + shoe_sz)  # it does not make sense to ask someone to add 5 apples with 2 pears
+print("My shoe size is " + str(shoe_sz)) #  str(8) ---> "8"
+
+# C
+age = 30
+print("You need to wait " + str(100 - age))
+
+# Practice
+# 2
+"""
+We use the str() function to convert a number into a string
+
+BTW this is what we call a multiline comment
+"""

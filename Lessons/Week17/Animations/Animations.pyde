@@ -1,7 +1,7 @@
 # Focus Learning: Python Level 1
 # Animations
 # Kavan Lam
-# Jan 15, 2020
+# Jan 22, 2020
 
 # Contents
 # 1) Simple animation of a ball moving to the right
@@ -94,9 +94,11 @@ def draw():
 """
 
 # Section 4
+"""
 x = 450
 y = 450
 direction = 1  # 1 = go down or go right    -1 = go up or go left
+direction_of_animation = "Vertical"  # this variable is either Vertical or Horizontal
 
 def setup():
     size(900, 900)
@@ -113,17 +115,78 @@ def draw():
     ellipse(x, y, 50, 50)
     
     # Move the circle (ball)
-    y = y + (direction * 5)
+    if direction_of_animation == "Vertical":
+        y = y + (direction * 5)
+    elif direction_of_animation == "Horizontal":
+        x = x + (direction * 5)
     
     # Check for hitting the top or bottom wall
     if y >= 900:
         direction = -1
     elif y <= 0:
         direction = 1
+        
+    if x >= 900:
+        direction = -1
+    elif x <= 0:
+        direction = 1
 
 def mousePressed():
+    global direction_of_animation
     print("Mouse is pressed you need to swap the direction of animation")
+    if direction_of_animation == "Vertical":
+        direction_of_animation = "Horizontal"
+    elif direction_of_animation == "Horizontal":
+        direction_of_animation = "Vertical"
+"""
 
+# Section 5
+x = 450
+y = 450
+direction = 1  # 1 = go down   -1 = go up
+num_bounces = 0 # This will keep track of the number of bounces. It starts at zero.
+
+def setup():
+    global my_font
+    size(900, 900)
+    my_font = loadFont("BerlinSansFB-Bold-48.vlw")
+    
+def draw():
+    global x
+    global y
+    global direction
+    global num_bounces
+    global my_font
+    
+    # Clear the previous frame
+    background(0, 0, 0)
+    
+    # Draw the circle (ball)
+    ellipse(x, y, 50, 50)
+    
+    # Move the circle (ball)
+    y = y + (direction * 5)
+    
+    # Check for hitting the top or bottom wall
+    if y >= 900:
+        direction = -1
+        num_bounces = num_bounces + 1
+    elif y <= 0:
+        direction = 1
+        num_bounces = num_bounces + 1
+        
+    # Display the number of bounces
+    pushStyle()
+    textFont(my_font, 40)
+    fill(255, 0, 0)
+    text("Number of bounces: " + str(num_bounces), 100, 100)
+    popStyle()
+    
+    
+    
+    
+    
+    
 
 
 

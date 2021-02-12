@@ -1,0 +1,6 @@
+1) Install Python Mode
+2) Run your first line of code ---> print("Hello World")
+3) How to save files in Processing and what is the file structure like
+4) How to complete your homework (DO NOT HAND WRITE YOUR ANSWERS... YOU MUST TYPE) (YOU COMMENTS FOR SHORT ANSWER QUESTIONS)
+5) How to submit homework
+6) Lets take a look at your first homework

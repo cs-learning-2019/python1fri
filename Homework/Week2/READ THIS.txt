@@ -1,0 +1,14 @@
+The following are the instructions! Anytime you have homework you should read teh instructions!
+
+At this point in time you should have Processing downloaded and installed Python Mode.
+You have also started learning some basic things in Python which you have seen in class.
+We have not gotten far enough for me to assign any homework so no homework for the week.
+
+However, I do want you to practice submitting your homework so before the start of next class what
+I need you to do is create a new Processing project and simply have a single line of code.
+Just do print("Hello World"). Make sure to save this project. At the beginning of the next class
+you will be asked to submit the .pyde file which contains the single line of code. To submit the file
+all you need to do is put it in the chat in Microsoft Teams at the start of class. You can also email me
+the file before or after class.
+
+Good Luck.

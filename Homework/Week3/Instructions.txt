@@ -1,17 +1,1 @@
-You need to look at the last page of the Intro to Python worksheet and finish the exercise.
-
-Step 1: Try the code which is given to you. Remeber that you must use https://www.programiz.com/python-programming/online-compiler/
-to run the code.
-
-Step 2: Answer the two practice questions. Write you answers in Processing using comments.
-
-For exmaple,
-
-# Question 1
-# We use input because blah blah blah
-
-# Question 2
-# It is important because blah blah blah
-
-Step 3: Save your work. You will need to hand in your pyde file containing the answers
-to the two questions next class.
+No homework. We did not finish the worksheet.

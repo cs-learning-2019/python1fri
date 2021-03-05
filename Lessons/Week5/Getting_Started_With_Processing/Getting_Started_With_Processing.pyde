@@ -1,17 +1,18 @@
 # Focus Learning: Python Level 1
 # Getting started with Processing
 # Kavan Lam
-# Oct 2, 2020
+# March 5, 2021
 
-
-# def = defining
-# Note all of the code inside a section must be tabbed (4 spaces)
 def setup():
-    # Note x is always first   so size(x, y)   x is left to right and y is top to bottom
-    size(900, 600)
-    
+    print("Setting up my project")
+    size(700, 700)
+
+
 def draw():
-    rect(0, 200, 50, 50)
+    fill(255, 255, 0)
+    rect(0, 200, 50, 50)  # rect = rectangle  eg/ rect(x, y, length, width)  and x, y is the top left corner of the rect
+    rect(350, 350, 150, 50)
+    
 
 
 
@@ -33,6 +34,16 @@ def draw():
 
 
 
+
+
+
+
+
+
+
+
+
+### IGNORE THIS ####
 """
 # def = defining
 # Note all of the code inside a section must be tabbed (4 spaces)

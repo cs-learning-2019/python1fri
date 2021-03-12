@@ -1,7 +1,7 @@
 # Focus Learning: Python Level 1
 # Getting started with Processing
 # Kavan Lam
-# March 5, 2021
+# March 12, 2021
 
 def setup():
     print("Setting up my project")
@@ -9,41 +9,49 @@ def setup():
 
 
 def draw():
-    fill(255, 255, 0)
-    rect(0, 200, 50, 50)  # rect = rectangle  eg/ rect(x, y, length, width)  and x, y is the top left corner of the rect
-    rect(350, 350, 150, 50)
+    # White ---> (255, 255, 255)
+    # Black ---> (0, 0, 0)
+    background(255, 255, 255) # We use RGB colors. Each number is from 0-255
     
+    # Draw the first rectangle
+    pushStyle()
+    fill(150, 27, 189)
+    stroke(255, 0, 0)
+    strokeWeight(5)
+    rect(0, 200, 50, 50)  # rect = rectangle  eg/ rect(x, y, length, width)  and x, y is the top left corner of the rect
+    popStyle()
+    
+    # Draw the second rectangle
+    pushStyle()
+    fill(255, 225, 0)
+    stroke(0, 0, 255)
+    rect(350, 350, 150, 50)
+    popStyle()
+    
+    # Draw text
+    pushStyle()
+    fill(0, 225, 0)
+    textSize(60)
+    text("Hello", 270, 100)
+    popStyle()
+    
+    # Draw line
+    pushStyle()
+    stroke(0, 255, 255)
+    strokeWeight(5)
+    line(100, 100, 400, 400)
+    popStyle()
+    
+    # Draw circle
+    pushStyle()
+    fill(231, 78, 90)
+    stroke(0, 0, 255)
+    strokeWeight(5)
+    ellipse(100, 400, 200, 200)
+    popStyle()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### IGNORE THIS ####
 """
 # def = defining
 # Note all of the code inside a section must be tabbed (4 spaces)

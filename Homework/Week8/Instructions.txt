@@ -1,7 +1,11 @@
-Your homework is very simple. Answer the following 3 questions as comments in a processing file
+Your homework is very simple. Answer the following 5 questions as comments in a processing file
 
 1) What is the data folder and what kinds of stuff is inside the data folder
 
-2) Explain in how to change the font style in processing. Can you write some exmaple code? What is a .vlw file?
+2) Explain how to change the font style in processing. Can you write some exmaple code? What is a .vlw file?
 
 3) There is a cool command to help you align you text to the center. What command do you need to use?
+
+4) What is minim?
+
+5) what happens if you try to play a sound effect but you put the code in the draw section?

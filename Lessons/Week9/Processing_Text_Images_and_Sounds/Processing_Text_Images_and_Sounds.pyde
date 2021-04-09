@@ -1,7 +1,7 @@
 # Focus Learning: Python Level 1
 # Text, Images and Sounds in Processing
 # Kavan Lam
-# Oct 16, 2020
+# April 9, 2021
 
 # You can get sound effects free from here http://soundbible.com/
 # Tell Processing we want to uses the minim library
@@ -14,7 +14,7 @@ def setup():
     
     size(900, 700)
     
-    # Here we load a picture. The pictures should be in .jpg or .png format.
+    # Here we load pictures. The pictures should be in .jpg or .png format.
     # Also do not forget to go to sketch >> Add file first
     dog = loadImage("dog.jpg")
     mario = loadImage("mario.jpg")
@@ -22,13 +22,12 @@ def setup():
     # Load in a font
     font1 = loadFont("BodoniMTCondensed-BoldItalic-48.vlw")
     
-    minim = Minim(this)  # store a cd player in to the minim variable
-    monkey_sound = minim.loadFile("monkey.mp3")
+    music_player = Minim(this)  # store a music player in to the minim variable
+    monkey_sound = music_player.loadFile("monkey.mp3")
     
     # .loop will replay the sound when it is finished
     # .play will only play the sound from start to finish one time
-    monkey_sound.loop() 
-    
+    #monkey_sound.loop() 
     
 def draw():
     background(0, 0, 0)
@@ -45,7 +44,7 @@ def draw():
     
     # Draw a picture to the screen
     pushStyle()
-    image(dog, 400, 300, 400, 300)
+    image(dog, 400, 300, 300, 100)
     popStyle()
     
     # Draw a picture to the screen

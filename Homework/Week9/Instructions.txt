@@ -1,0 +1,13 @@
+Your HW is very simple.
+
+If you were paying attention in class you should be able to answer these questions. You can find
+all of the code you need from the code covered in class. You can also go to the worksheets
+and find clear instructions on how to do a lot of the stuff. 
+
+1) Find an image from Google Images that you like and download it. Be careful not to download viruses.
+
+2) Write some code in Processing to display the image you picked. Basically what we did in class.
+
+3) Find a sound effect from online and download it. I recommond using https://soundbible.com/.
+
+4) Add some more code to play the sound effect exactly once.

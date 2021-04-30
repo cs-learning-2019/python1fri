@@ -29,6 +29,8 @@ def draw():
     text("Hello World", 450, 450)
     
     #sound1.loop() this is no good
+    sound1.setGain(-30)  # set the volume
+    
     sound1.play()  # This is ok
     
     

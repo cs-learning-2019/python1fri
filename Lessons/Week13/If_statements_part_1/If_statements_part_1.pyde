@@ -1,8 +1,7 @@
 # Focus Learning: Python 1 
 # If statements part 1
 # Kavan Lam
-# Nov 6, 2020
-
+# May 14, 2021
 
 # Skill 1
 # Ex 1
@@ -10,8 +9,9 @@
 #   do something
 if 30 < 5:
     print("Pikachu!")
-
+    
 print("Hello") # There is no tab so this line is not part of the if statement
+
 
 # Ex 2
 print("-----------------------------------")
@@ -22,22 +22,22 @@ if amt == 20:
     print("$20")
 else:  # else is an extension to the if statement and takes care of what to do if everything else fails
     print("You do not have 20 bucks")
-    
+
+
 # Challenges
 # A
 print("-----------------------------------")
-age = 30
+age = 15
 if age > 12:
     print("Ha ha a joke")
 else:
     print("You not old enough. No joke for u.")
 
-
 # Skill 2
 print("----------------------------------")
 # Python will use only the first case that works in a single if statement
-mark = 85
-if mark > 90:
+mark = 90
+if mark >= 90:
     print("A+")
 elif mark > 80:
     print("A")
@@ -53,6 +53,8 @@ else:
 # Note: we do not give a condition for else since it should take care of what happens if non
 # of the cases above worked
 
+
+"""
 # Practice Question 1
 print("------------------------------------------")
 a = 20
@@ -91,3 +93,4 @@ elif month < 9:
     print("Summer")
 else:
     print("Fall")
+"""

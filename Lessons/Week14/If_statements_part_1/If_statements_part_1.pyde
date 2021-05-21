@@ -53,8 +53,6 @@ else:
 # Note: we do not give a condition for else since it should take care of what happens if non
 # of the cases above worked
 
-
-"""
 # Practice Question 1
 print("------------------------------------------")
 a = 20
@@ -77,12 +75,12 @@ else:
 
 # Practice Question 2
 print("-------------------------")
-peanut_sales = 200
+peanut_sales = 180
 if peanut_sales < 200:
     print("You have not sold enough peanuts.")
 else:
     print("Quota reached.")
-   
+
 print("-------------------------")
 month = 12
 if month < 3:
@@ -93,4 +91,3 @@ elif month < 9:
     print("Summer")
 else:
     print("Fall")
-"""

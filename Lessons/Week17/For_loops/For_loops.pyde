@@ -1,6 +1,6 @@
 # Focus Learning: Python Level 1
 # For loops
-# Nov 20, 2020
+# June 11, 2021
 # Kavan Lam
 
 # If we wanted to print the numbers from 0 to 5
@@ -23,12 +23,15 @@ for i in range(10):   # range will give you back a range of numbers. Python will
     
 print("Hello")  # This line is not part of the for loop since it is not tabbed
 
+
+
 # Ex 2
 print("---------------------------------------")
 for j in range(8):
     print("&"*j)
     
-    
+
+
 # Ex 3
 print("---------------------------------------")
 for q in range(2, 7):
@@ -55,6 +58,8 @@ for character in "bugaboo":
     print(character)
 
 
+
+"""
 # Ex 7 
 print("-----------------------------------------")
 size = 80
@@ -64,3 +69,4 @@ for row in range(size - 2):
     print("|" + " " * (size - 2) + "|")
 
 print("-" * size)
+"""

@@ -57,3 +57,19 @@ counter = 10
 while counter > 0:
     print("This is amazing!")
     counter = counter - 1
+
+
+print("------------------------------")
+x = 45
+y = 80
+while x < 50 and y < 100:
+    x = x + 1
+    y = y + 1
+    print(x, y)
+
+
+
+
+    
+    
+    

@@ -1,0 +1,32 @@
+# For Loops HW Solutions 
+
+# Question 1
+"""
+A for loop is one of the two kinds of loops you can use in Python. A for loop allows you to
+do an action mulitple times across some thing (string, list and etc).
+
+
+One ex would be looping over the characters of a string
+"""
+
+# Question 2
+"""
+e
+ll
+lll
+oooo
+"""
+
+# Question 3
+name = "Jonna"
+
+for character in name:
+    if character == "A" or character == "a":
+        print("Amazing")
+    elif character == "B" or character == "b":
+        print("Bye")
+    elif character == "C" or character == "c":
+        print("Cat")
+    else:
+        print("Whatever")
+    

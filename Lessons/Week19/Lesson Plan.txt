@@ -1,0 +1,4 @@
+1) Take up the for loop HW
+2) Finish While Loops
+3) Demo some cool graphics using loops
+4) Take about Continuing Python Level 1 in september
